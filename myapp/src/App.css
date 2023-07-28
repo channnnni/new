@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
-}
+.frame7{
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 442px;
+  height: 1024px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: 0;
+  transform: translateX(600px);
 }
 
-.App-link {
-  color: #61dafb;
+.frame5 {
+
+  display: flex;
+  width: 410px;
+  height: 408px;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 130px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Top {
+  position: fixed;
+  top: 0;
+}
+
+.TopID {
+  position: absolute;
+  top: 0;
+}
+
+
+.text {
+  color: #4CAF50;
+  font-family: SUITE;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+  position: absolute;
+  left: 25px;
+  position: absolute;
+  top: 200px;
+}
+
+
+
+.button {
+  display: flex;
+  width: 410px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  gap: 10px;
+  position: fixed;
+  top: 800px;
+  border-radius: 8px;
+  border: 1px solid var(--grayscale-black, #000);
+  text-align: center;
+  font-family: SUITE;
+  font-size: 16px;
+  font-style: normal;
+
+}
+
+.search {
+  position: relative;
+  top: -350px;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 375px;
+  position: absolute;
+  top: 20px;
+}
+
+.search02 {
+  display: flex;
+  width: 410px;
+  height: 55px;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  font-family: SUITE;
+  font-size: 16px;
+  font-style: normal;
+  border-radius: 8px;
+}
+
+
+body {
+  background-image: url(./image/back.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
 }
